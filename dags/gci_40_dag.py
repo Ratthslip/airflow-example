@@ -564,10 +564,10 @@ def transform():
 
 
 default_args = {
-    'owner': 'ETDA',
+    'owner': 'Ratthaslip',
     'depends_on_past': False,
     'start_date': '2021-01-25',
-    'email': ['oulespaul@gmail.com'],
+    'email': ['udom.ranok@gmail.com'],
     'email_on_failure': False,
     'email_on_retry': False,
     'retry_delay': timedelta(minutes=5),
