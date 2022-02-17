@@ -622,4 +622,4 @@ with dag:
         bash_command='rm -f /opt/airflow/dags/output/gci40/*',
     )
 
-ingestion >> transform >> load_to_hdfs >> clean_up_output
+ingestion >> transform  >> clean_up_output
