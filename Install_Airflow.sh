@@ -1,5 +1,5 @@
 #step1 clone source code airflow from github: https://github.com/Ratthslip/airflow-example
-	git clone https://github.com/Ratthslip/airflow-example
+	#git clone https://github.com/Ratthslip/airflow-example
 #step2 run docker-compose up airflow-init แล้วรอจน run success
     #create user
 	sudo docker-compose up airflow-init 
